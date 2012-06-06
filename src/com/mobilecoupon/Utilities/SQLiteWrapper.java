@@ -3,6 +3,7 @@ package com.mobilecoupon.Utilities;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import com.mobilecoupon.Models.ListItem;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,7 +13,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  * To change this template use File | Settings | File Templates.
  */
 
-class SQLiteWrapper extends SQLiteOpenHelper {
+public class SQLiteWrapper extends SQLiteOpenHelper {
 
     public static final String MYDATABASE_NAME = "Coupon";
     public static final int MYDATABASE_VERSION = 1;
@@ -31,8 +32,9 @@ class SQLiteWrapper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase database) {
-        database.execSQL("CREATE TABLE scannedBarcodes(barcode INTEGER NOT NULL, coupon INTEGER NOT NULL)");
-        database.execSQL("CREATE TABLE couponImages(barcode TEXT NOT NULL, couponList TEXT NOT NULL)");
+        database.execSQL("CREATE TABLE scannedBarcodes(barcode INTEGER NOT NULL, coupon INTEGER NOT NULL, " +
+                "description TEXT DEFAULT NULL, timestamp REAL)");
+        database.execSQL("CREATE TABLE couponImages(couponList TEXT NOT NULL)");
     }
 
     @Override
@@ -40,5 +42,11 @@ class SQLiteWrapper extends SQLiteOpenHelper {
         database.execSQL("DROP TABLE IF EXISTS scannedBarcodes");
         database.execSQL("DROP TABLE IF EXISTS couponImages");
         onCreate(database);
+    }
+
+    public ListItem[] getRecentlySearchedProducts(SQLiteDatabase database, int days) {
+        database.execSQL("SELECT * FROM scannedBarcodes WHERE (julianday(Date('now')) - julianday(timestamp)) < " +
+        days +";");
+        return new ListItem[0];
     }
 }
