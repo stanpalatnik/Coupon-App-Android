@@ -1,7 +1,6 @@
 package com.mobilecoupon;
 
-import android.app.Activity;
-import android.os.Bundle;
+import com.biggu.barcodescanner.client.android.CaptureActivity;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,13 +9,28 @@ import android.os.Bundle;
  * Time: 1:43 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CameraScanActivity extends Activity {
-    /**
-     * Called when the activity is first created.
-     */
+public class CameraScanActivity extends CaptureActivity {
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+    public int get_R_id_preview_view() {
+
+        return R.id.preview_view;
+    }
+
+    @Override
+    public int get_R_id_viewfinder_view() {
+
+        return R.id.viewfinder_view;
+    }
+
+    @Override
+    public int get_R_layout_scanner() {
+
+        return R.layout.camera_scanner;
+    }
+
+    @Override
+    public int get_R_raw_beep() {
+
+        return R.raw.beep;
     }
 }

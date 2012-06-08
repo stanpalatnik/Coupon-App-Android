@@ -13,8 +13,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c13ef41f-1f27-436a-a831-1ffe3882d666" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/ManualBarcodeSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/PreviousBarcodeSearchList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/camera_scanner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/coupon_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/Models/BarcodeItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/ShowCombinedCouponCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/NetworkWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SHA1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/My Mobile Coupon.iml" afterPath="$PROJECT_DIR$/My Mobile Coupon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/mobilecoupon/R.java" afterPath="$PROJECT_DIR$/gen/com/mobilecoupon/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/manual_barcode_search.xml" afterPath="$PROJECT_DIR$/res/layout/manual_barcode_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mobilecoupon/BarcodeLookupOptionsActivity.java" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/BarcodeLookupOptionsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mobilecoupon/CameraScanActivity.java" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/CameraScanActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mobilecoupon/PreviousBarcodeSearchList.java" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/PreviousBarcodeSearchList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SQLiteWrapper.java" afterPath="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SQLiteWrapper.java" />
     </list>
     <ignored path="My Mobile Coupon.iws" />
@@ -73,30 +84,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BarcodeLookupOptionsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/BarcodeLookupOptionsActivity.java">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="1006" selection-end="1283" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TabHandlerActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/TabHandlerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="54" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManualBarcodeSearch.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/ManualBarcodeSearch.java">
+      <file leaf-file-name="BarcodeLookupOptionsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/BarcodeLookupOptionsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="290" selection-end="525" vertical-scroll-proportion="0.0">
+            <state line="119" column="0" selection-start="5427" selection-end="5645" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3927#4660#0" expanded="true" />
+                <element signature="e#4629#4630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviousBarcodeSearchList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/PreviousBarcodeSearchList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="17" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2095#2972#0" expanded="true" />
+                <element signature="e#2965#2966#0" expanded="true" />
+                <element signature="e#3030#3435#0" expanded="true" />
+                <element signature="e#3428#3429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowCombinedCouponCode.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/ShowCombinedCouponCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="8" selection-start="548" selection-end="548" vertical-scroll-proportion="0.6191199">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,13 +131,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreviousBarcodeSearchList.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/PreviousBarcodeSearchList.java">
+      <file leaf-file-name="RegisterActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="75" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.7046332">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="2" selection-start="286" selection-end="510" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupon_view.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/coupon_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="23" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,47 +152,27 @@
       <file leaf-file-name="SQLiteWrapper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SQLiteWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="10" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0">
+            <state line="24" column="51" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3779#3792#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraScanActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/CameraScanActivity.java">
+      <file leaf-file-name="BarcodeItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Models/BarcodeItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="289" selection-end="508" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="762" selection-end="1025" vertical-scroll-proportion="0.0">
+            <state line="9" column="43" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_row.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
+      <file leaf-file-name="NetworkWrapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Utilities/NetworkWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="28" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manual_barcode_search.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/manual_barcode_search.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="45" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+            <state line="38" column="0" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,22 +191,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/FileCache.java" />
-        <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/MemoryCache.java" />
-        <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/ImageLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/LazyAdapter.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/values/barcode_options_list.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/mobilecoupon/TabHandlerActivity.java" />
         <option value="$PROJECT_DIR$/src/com/mobilecoupon/Models/ListItem.java" />
         <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/CustomImageListAdaptor.java" />
-        <option value="$PROJECT_DIR$/src/com/mobilecoupon/BarcodeLookupOptionsActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/list_row.xml" />
-        <option value="$PROJECT_DIR$/res/layout/manual_barcode_search.xml" />
         <option value="$PROJECT_DIR$/src/com/mobilecoupon/ManualBarcodeSearch.java" />
+        <option value="$PROJECT_DIR$/res/layout/camera_scanner.xml" />
+        <option value="$PROJECT_DIR$/src/com/mobilecoupon/CameraScanActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/manual_barcode_search.xml" />
+        <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SHA1.java" />
+        <option value="$PROJECT_DIR$/src/com/mobilecoupon/BarcodeLookupOptionsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/NetworkWrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/mobilecoupon/Models/BarcodeItem.java" />
         <option value="$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SQLiteWrapper.java" />
         <option value="$PROJECT_DIR$/src/com/mobilecoupon/PreviousBarcodeSearchList.java" />
+        <option value="$PROJECT_DIR$/res/layout/couponView.xml" />
+        <option value="$PROJECT_DIR$/src/com/mobilecoupon/ShowCombinedCouponCode.java" />
       </list>
     </option>
   </component>
@@ -231,30 +245,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My Mobile Coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My Mobile Coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,37 +291,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobilecoupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utilities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My Mobile Coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My Mobile Coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobilecoupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="raw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,12 +359,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My Mobile Coupon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My Mobile Coupon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mobilecoupon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My Mobile Coupon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My Mobile Coupon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -424,6 +426,12 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\home\Downloads\My Mobile Coupon\res\raw" />
+      <recent name="C:\Users\home\Downloads\My Mobile Coupon\res" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.My Mobile Coupon">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -591,9 +599,8 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.6702381" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.83809525" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -602,16 +609,17 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2471637" sideWeight="0.3690476" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.6702381" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2471637" sideWeight="0.46071428" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16190477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -675,124 +683,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Custom_Lists/Custom_Lists/src/com/leebrimelow/custom/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/ManualBarcodeSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="375" selection-end="518" vertical-scroll-proportion="0.33663365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Models/ListItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.2953668">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/mobilecoupon/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="228" selection-end="228" vertical-scroll-proportion="0.13127413">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../AndroidSDK/platforms/android-8/android.jar!/android/widget/ArrayAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/image_bg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="228" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Utilities/CustomImageListAdaptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="28" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="762" selection-end="1025" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="50" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/manual_barcode_search.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+        <state line="15" column="54" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SHA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="26" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/TabHandlerActivity.java">
+    <entry file="jar://$PROJECT_DIR$/../AndroidSDK/platforms/android-8/android.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="54" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="146" selection-end="146" vertical-scroll-proportion="0.08695652">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/CameraScanActivity.java">
+    <entry file="jar://$PROJECT_DIR$/../AndroidSDK/platforms/android-8/android.jar!/android/content/Intent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="289" selection-end="508" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="183" column="11" selection-start="16379" selection-end="16379" vertical-scroll-proportion="0.33248082">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/ManualBarcodeSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Utilities/NetworkWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="290" selection-end="525" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SQLiteWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="10" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="38" column="0" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/BarcodeLookupOptionsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="1006" selection-end="1283" vertical-scroll-proportion="0.0">
+        <state line="119" column="0" selection-start="5427" selection-end="5645" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3927#4660#0" expanded="true" />
+            <element signature="e#4629#4630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Models/BarcodeItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/Utilities/SQLiteWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="51" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3779#3792#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/PreviousBarcodeSearchList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="75" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.7046332">
+        <state line="49" column="17" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2095#2972#0" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
+            <element signature="e#3030#3435#0" expanded="true" />
+            <element signature="e#3428#3429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="286" selection-end="510" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/mobilecoupon/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="66" selection-start="3563" selection-end="3563" vertical-scroll-proportion="0.92261004">
+          <folding>
+            <element signature="e#0#3572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/camera_scanner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/coupon_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mobilecoupon/ShowCombinedCouponCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="548" selection-end="548" vertical-scroll-proportion="0.6191199">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

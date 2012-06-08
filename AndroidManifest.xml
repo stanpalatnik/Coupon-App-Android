@@ -4,6 +4,8 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="8"/>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+
     <application android:label="@string/app_name">
         <activity android:name=".TabHandlerActivity"
                   android:label="@string/app_name">
@@ -17,5 +19,7 @@
         <activity android:name=".CameraScanActivity"></activity>
         <activity android:name=".TabHandlerActivity"></activity>
         <activity android:name=".BarcodeLookupOptionsActivity"></activity>
+        <activity android:name=".ManualBarcodeSearch"></activity>
+        <activity android:name=".PreviousBarcodeSearchList"></activity>
     </application>
 </manifest> 

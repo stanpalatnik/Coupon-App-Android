@@ -13,11 +13,12 @@
         </TextView>
 
     <EditText
-            android:text=""
+            android:inputType="number"
             android:id="@+id/txtBarcode"
+            android:singleLine="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:inputType="textNoSuggestions"
+            android:maxLength="13"
             android:hint="Enter any UPC or EAN barcode">
     </EditText>
 
